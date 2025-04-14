@@ -13,9 +13,12 @@ plans:
         value: 100/1hour
     apis:
       cicdtest1.0.0: {}
+      testapi1.0.0: {}
 apis:
   cicdtest1.0.0:
     $ref: ./cicdtest_1.0.0.yaml
+  testapi1.0.0:
+    $ref: ./testapi_1.0.0.yaml
 visibility:
   view:
     type: public
