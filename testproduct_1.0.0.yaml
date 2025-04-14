@@ -24,3 +24,6 @@ visibility:
     tags: []
     enabled: true
 product: 1.0.0
+apis:
+  testapi1.0.0:
+    $ref: ./testapi_1.0.0.yaml
